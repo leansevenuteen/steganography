@@ -16,5 +16,5 @@ We conduct experiments with the ML model in the [Kaggle Notebook](https://www.ka
 ### Using classical steganography techniques:
 If you want to learn how to embed and retrieve various data types from audio files, run the `Algorithm_Embedd.py` and `Algorithm_Retrieve.py` scripts. Please note that the project currently only works with cover data in .wav file format.
 
-### Using the CNN model for steganalysis in audio:
+### Using the ML model for steganalysis in audio:
 If you want to learn how the ML model detects audio steganalysis, you can refer to the `steganography.ipynb` script. However, before you run the `steganography.ipynb` script, make sure you have prepared the data for training the model using the `prepare_data.py` script.
