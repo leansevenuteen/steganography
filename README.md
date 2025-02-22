@@ -7,9 +7,10 @@ This project combines the use of classical steganography techniques for conceali
 Recently, numerous studies in this field have found that ML models can easily detect data that is intricately concealed using steganography techniques. Therefore, this project also provides a method by which a machine learning model can detect concealed data in audio by utilizing Convolutional Neural Networks (CNNs).
 
 ## Dataset
-We train and evaluate the performance of the CNN model using the Acted Emotional Speech Dynamic Database ([AESDD](https://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/)) through the prepare_data.py script.
+We use the original dataset, Acted Emotional Speech Dynamic Database [AESDD](https://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/), and process it with the `prepare_data.py` script to initialize the training and evaluation data for the CNN model.
 
 ## Enviroment
 We conduct experiments with the ML model in the [Kaggle Notebook environment](https://www.kaggle.com/), utilizing a Tesla P100 GPU with 16GB, 15GB of CPU, and 20GB of memory.
 
 ## Usage
+##### Preparing data for the ML model:
